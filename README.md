@@ -64,17 +64,17 @@
 - 利用flex水平垂直居中元素
 ```
 利用 flex 布局
- 实际使用时应考虑兼容性
+实际使用时应考虑兼容性
 
  .container {
-    display: flex;
-    align-items: center; 		/* 垂直居中 */
-    justify-content: center;	/* 水平居中 */
-
-   }
+   display: flex;
+   align-items: center; 		/* 垂直居中 */
+   justify-content: center;	/* 水平居中 */
+ }
+   
  .container div {
-    width: 100px;
-    height: 100px;
-    background-color: pink;
-   }  
+   width: 100px;
+   height: 100px;
+   background-color: pink;
+ }  
 ```
