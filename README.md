@@ -1,80 +1,21 @@
-## FE-QA
-前端知识点汇总 + demo或分析
+## [学记](https://littlewin.wang/notes)
+一直觉得，博客是需要至少两个维度的
 
-### HTML
-- 在页面上实现圆形可点击区域
-```
-1.map+area或者svg
-  <img src="image.jpg" usemap="#map" />  
-  <map name="map" id="map">
-    <area shape="circle" coords="50,50,50" href="http://www.baidu.com" rel="nofollow" target="_blank"/>
-  </map>
+> 心系猛虎，随笔即兴，探寻思维的深度和广度
 
-2.border-radius
-  <div class="circle"></div>
-  .circle {
-    width:100px;
-    height:100px;
-    border-radius:50%;
-  }
-  
-3.js实现
-  document.onclick = function(e) {  
-    var r = 50; 
-    var x1 = 100;
-    var y1 = 100;
-    var x2= e.clientX;
-    var y2= e.clientY;  
-    var distance = Math.abs(Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2)));  
-    if (distance <= 50)
-      alert("Yes!");  
-  }
-```
+> 细嗅蔷薇，点滴记录，留存记忆的点滴与片刻
 
-- 实现不使用 border 画出1px高的线
-```
-  <div style="height:1px;overflow:hidden;background:red"></div>
-```
+霸气外露，尽情装逼的部分由「 [琪中有不凡](https://littlewin.wang) 」完成
 
-### CSS
-- css优先级
-```
-1.根据权重
-  !important >  id > class > tag
-  !important 高于所有权重，包括内联
-2.同权重
-  内联样式表（标签内部）> 嵌入样式表（当前文件中）> 外部样式表（外部文件中）
-```
+这里就记录一点一滴的累积吧
 
-- 绝对定位元素的居中（未知宽高）
-```
-未知容器的宽高，利用 `transform` 属性
+### [基础](https://github.com/littlewin-wang/Notes/labels/基础)
+1. [自实现之Ajax库 - XMLHttpRequest实现](https://github.com/littlewin-wang/Notes/issues/1)
 
- div {
- 	position: absolute;
- 	height:300px;
- 	top: 50%;
- 	left: 50%;
- 	transform: translate(-50%, -50%);
- 	background-color: pink;	
+### [技巧](https://github.com/littlewin-wang/Notes/labels/技巧)
 
- }
-```
+### [方法](https://github.com/littlewin-wang/Notes/labels/方法)
 
-- 利用flex水平垂直居中元素
-```
-利用 flex 布局
-实际使用时应考虑兼容性
+### [设计](https://github.com/littlewin-wang/Notes/labels/设计)
 
- .container {
-   display: flex;
-   align-items: center; 		/* 垂直居中 */
-   justify-content: center;	/* 水平居中 */
- }
-   
- .container div {
-   width: 100px;
-   height: 100px;
-   background-color: pink;
- }  
-```
+### [工程化](https://github.com/littlewin-wang/Notes/labels/工程化)
