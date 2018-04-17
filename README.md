@@ -11,6 +11,11 @@
 
 ### [基础](https://github.com/littlewin-wang/Notes/labels/基础)
 1. [自实现之Ajax库 - XMLHttpRequest实现](https://github.com/littlewin-wang/Notes/issues/1)
+2. [那些年你不曾注意过得 - 类型转换](https://github.com/littlewin-wang/Notes/issues/2)
+
+### [源码](https://github.com/littlewin-wang/Notes/labels/源码研析)
+1. [lodash源码研析-数组合久必分chunk](https://github.com/littlewin-wang/Notes/issues/3)
+2. [lodash源码研析-数组分久必合concat](https://github.com/littlewin-wang/Notes/issues/4)
 
 ### [技巧](https://github.com/littlewin-wang/Notes/labels/技巧)
 
